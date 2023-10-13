@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #80baee;
+}
+
+
+header
+{
+    width: 100vw;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+header button
+{
+    background-color: #264653;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+}
+
+.container1
+{
+    display: flex;
+    width: 100vw;
+    padding: 20px;
+    column-gap: 30px;
+}
+
+.imagecontainer
+{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1px;
+    overflow: hidden;
+}
+
+.imagecontainer img
+{
+    width: 100%;
+    height: 415px;
+    border-radius: 20px;
+}
+
+.detailscontainer
+{
+    display: block;
+    width: 50%;
+    height: 404px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+    overflow: scroll;
+    font-family: 'Lora', serif;
+    background-color: #264653;
+}
+
+.buttoncontainer
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: flex-start;
+    column-gap: 200px;
+    padding-top: 20px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+.container2
+{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100vw;
+    padding: 20px;
+    column-gap: 30px;
+}
+
+.buttoncontainer2
+{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: flex-end;
+    column-gap: 200px;
+    padding-top: 20px;
+    padding-right: 150px;
+    margin-bottom: 50px;
+}
+
+.buttoncontainer button
+{
+    background-color: #264653;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Lora', serif;
+    cursor: pointer;   
+}
+
+.buttoncontainer2 button
+{
+    background-color: #264653;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+}
+
+.imagecontainermove{
+    height: inherit;
+    width: 5076px;
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide{
+    0% {
+      transform: translate(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1692px, 0, 0);
+    }
+}
